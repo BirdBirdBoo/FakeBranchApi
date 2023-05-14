@@ -25,7 +25,7 @@ offices = [
 # Routes
 @app.route('/branches')
 def get_offices():
-    return jsonify({"offices": offices})
+    return jsonify({"branches": offices})
 
 
 if __name__ == '__main__':
